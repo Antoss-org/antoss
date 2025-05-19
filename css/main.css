@@ -3,11 +3,62 @@
 	padding: 0;
 }
 
+:root {
+
+	/*					COLORS				 */
+
+	/*					BODY				 */
+	--body-background: #ffffff;
+	--body-color: #000000;
+	--body-a: #0000b3;
+	--body-a-hover: #00889d;
+	--body-a-visited: #6b00b3;
+	--body-a-active: #bc0009;
+
+}
+
+.darkmode {
+
+	/*					COLORS				 */
+
+	/*					BODY				 */
+	--body-background: #101010;
+	--body-color: #ffffff;
+	--body-a: #68b1ff;
+	--body-a-hover: #00c6f3;
+	--body-a-visited: #e15eff;
+	--body-a-active: #ff6363;
+
+}
+
+
 
 html {
 	font-family: sans-serif;
 	font-size: 1rem;
 }
+
+body {
+	background-color: var(--body-background);
+	color: var(--body-color);
+}
+
+main a {
+	color: var(--body-a);
+}
+
+main a:visited {
+	color: var(--body-a-visited);
+}
+
+main a:hover {
+	color: var(--body-a-hover);
+}
+
+main a:active {
+	color: var(--body-a-active);
+}
+
 
 h1 {
 	font-size: 2.3rem;
@@ -38,25 +89,8 @@ p {
 	padding: 0.5em 1%;
 }
 
-header {
-	background-color: #222240;
-	color: #ffffff;
-	padding: 0.25em 2%;
-	font-size: 0.95rem;
-	font-weight: 500;
-}
 
-header li {
-	list-style: none;
-	display: inline-block;
-}
-
-header a {
-	color: #ffffff;
-	text-decoration: none;
-}
-
-nav{
+nav {
 	padding: 1.2em 9% 2em 6%;
 	font-size: 0.896em;
 }
@@ -83,3 +117,4 @@ nav a:hover{
 	color: #bc0009;
 	text-decoration: underline;
 }
+

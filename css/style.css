@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+
+	/*					COLORS				 */
+
+	/*					BODY				 */
+	--body-background: #ffffff;
+	--body-color: #000000;
+	--body-a: #0000b3;
+	--body-a-hover: #00889d;
+	--body-a-visited: #6b00b3;
+	--body-a-active: #bc0009;
+
+	/*				HEADER					 */
+	--header-color: #454545; /* b5b5b5 */
+	--header-hover: #645f5f; /* dbd1d1 */
+	--header-font: #cdcbff; /* 05008c */
+	--header-font-hover: #ffbad0; /* 006eff */
+	--header-debian-logo: #b5b5b5;
+	--header-border-right: #9e9e9e; /* 666666 */
+	--header-border-bottom: #eb0000; /* 666666 */
+
+	/*				FOOTER			*/
+	--footer-background: #222222;
+	--footer-color: #ffffff;
+	--footer-a: #68b1ff;
+	--footer-a-hover: #00c6f3;
+	--footer-a-visited: #e15eff;
+	--footer-a-active: #ff6363;
+
+	/* DARK MODE BUTTON */
+	--darkmode-background: #000;
+	--darkmode-fill: #FFFF99;
+}
+
+.darkmode {
+
+	/*					COLORS				 */
+
+	/*					BODY				 */
+	--body-background: #101010;
+	--body-color: #ffffff;
+	--body-a: #68b1ff;
+	--body-a-hover: #00c6f3;
+	--body-a-visited: #e15eff;
+	--body-a-active: #ff6363;
+
+	/*				HEADER					 */
+	--header-color: #454545; /* b5b5b5 */
+	--header-hover: #645f5f; /* dbd1d1 */
+	--header-font: #cdcbff; /* 05008c */
+	--header-font-hover: #ffbad0; /* 006eff */
+	--header-debian-logo: #b5b5b5;
+	--header-border-right: #9e9e9e; /* 666666 */
+	--header-border-bottom: #eb0000; /* 666666 */
+
+	/*				FOOTER			*/
+	--footer-background: #222233;
+	--footer-color: #ffffff;
+	--footer-a: #68b1ff;
+	--footer-a-hover: #00c6f3;
+	--footer-a-visited: #e15eff;
+	--footer-a-active: #ff6363;
+
+	/* DARK MODE BUTTON */
+	--darkmode-background: #8d8d8d;
+	--darkmode-fill: #0017e9;
+}
+
+
+
+
+html {
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+
+body {
+	background-color: var(--body-background);
+	color: var(--body-color);
+}
+
+main a {
+	color: var(--body-a);
+}
+
+main a:visited {
+	color: var(--body-a-visited);
+}
+
+main a:hover {
+	color: var(--body-a-hover);
+}
+
+main a:active {
+	color: var(--body-a-active);
+}
+
+h1 {
+	font-size: 2.3rem;
+	padding: 0.3em 1em 0 5.5%;
+}
+
+h2 {
+	font-size: 1.7rem;
+	padding: 0.8em 0 0.5em 0;
+}
+
+h3 {
+	font-size: 1.3rem;
+	padding: 0.8em 0 0.58em 0;
+}
+
+h4 {
+	text-decoration: underline;
+	font-size: 1.05rem;
+	padding: 0.86em 0 0.52em 2em;
+}
+
+main {
+	padding: 0.6rem 5.5%;
+}
+
+p {
+	padding: 0.5em 1%;
+}
+
+header {
+	background-color: #222240;
+	color: #ffffff;
+	padding: 0.25em 2%;
+	font-size: 0.95rem;
+	font-weight: 500;
+}
+
+header li {
+	list-style: none;
+	display: inline-block;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+header li:last-child {
+	padding: 0.4em 1.6% 0.2em 0.2em;
+	float: right;
+}
+
+#theme-switch {
+	height: 2.2em;
+	width: 2.2em;
+	padding: 0;
+	border-radius: 50%;
+	background-color: var(--darkmode-background);
+}
+
+#theme-switch svg {
+	fill: var(--darkmode-fill);
+}
+
+#theme-switch svg:last-child {
+	display: none;
+}
+
+.darkmode #theme-switch svg:first-child {
+	display: none;
+}
+
+.darkmode #theme-switch svg:last-child {
+	display: block;
+}
+
+
+
+nav{
+	padding: 1.2em 9% 2em 6%;
+	font-size: 0.896em;
+}
+
+nav li{
+	list-style: none;
+	padding: 0.41em 1.1em;
+	border-bottom: 1px solid #b9b9b9;
+}
+
+nav li:hover{
+	background-color: #e1e1e1;
+}
+
+nav li:first-child{
+	border-top: 1px solid #b9b9b9;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #bc0009;
+	text-decoration: underline;
+}
