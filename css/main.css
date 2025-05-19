@@ -11,8 +11,8 @@
 	--body-background: #ffffff;
 	--body-color: #000000;
 	--body-a: #0000b3;
-	--body-a-hover: #00889d;
-	--body-a-visited: #6b00b3;
+	--body-a-hover: #008a9f;
+	--body-a-visited: #8d00c0;
 	--body-a-active: #bc0009;
 
 }
@@ -25,7 +25,7 @@
 	--body-background: #101010;
 	--body-color: #ffffff;
 	--body-a: #68b1ff;
-	--body-a-hover: #00c6f3;
+	--body-a-hover: #0ad2ff;
 	--body-a-visited: #e15eff;
 	--body-a-active: #ff6363;
 
